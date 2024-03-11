@@ -1,3 +1,3 @@
-# DWCJ Dynamic Web Client for Java
+# DWCJ Dynamic Web Client for Java, now becoming webforJ
 
-See the [project's homepage (https://www.dwcj.org)](https://www.dwcj.org) for details.
+See the [project's documentation homepage (https://documentation.webforj.com)](https://documentation.webforj.com) for details.
