@@ -11,29 +11,23 @@ Elevate your Java applications to the web effortlessly with BASIS International'
   <br>
 </div>
 
-# webforJ [![Maven Central](https://img.shields.io/maven-metadata/v.svg?label=Latest&metadataUrl=https%3A%2F%2Frepo1.maven.org%2Fmaven2%2Fcom%2Fwebforj%2Fwebforj-parent%2Fmaven-metadata.xml)](https://github.com/webforj/webforj/releases)
+## 🚀 What is webforJ?
 
-webforJ provides a powerful, developer-friendly framework for creating modern web interfaces using Java. With its flexibility and ease of use, webforJ enables developers to design intuitive and efficient web applications.
+webforJ is a powerful framework that enables developers to build modern web interfaces in Java effortlessly. Its developer-friendly approach ensures flexibility, simplicity, and efficiency for intuitive web application creation.
 
-<div align="center">
+[![Latest Release](https://img.shields.io/maven-metadata/v.svg?label=Latest&&color=022495&metadataUrl=https%3A%2F%2Frepo1.maven.org%2Fmaven2%2Fcom%2Fwebforj%2Fwebforj-parent%2Fmaven-metadata.xml)](https://github.com/webforj/webforj/releases)
 
-### [Get Started](https://docs.webforj.com/docs/introduction/getting-started) · [UI Components](https://docs.webforj.com/docs/components/overview) · [JavaDocs](https://javadoc.io/doc/com.webforj) · [DWC Design Kit](https://www.figma.com/community/file/1144573845612007198)
+## 🔗 Quick Links
 
-<br>
-</div>
+- **[📖 Get Started](https://docs.webforj.com/docs/introduction/getting-started):** A step-by-step guide to kickstart your webforJ journey.  
+- **[🛠 UI Components](https://docs.webforj.com/docs/components/overview):** Explore the reusable and customizable components that power webforJ.  
+- **[📚 JavaDocs](https://javadoc.io/doc/com.webforj):** Dive into the detailed documentation of webforJ APIs and classes.  
+- **[🎨 DWC Design Kit](https://www.figma.com/community/file/1144573845612007198):** Access the Figma community design kit to create stunning webforJ interfaces.
 
-## How to Contribute
+## 🤝 **How to Contribute**
 
-We’re excited about your interest in contributing! Whether you're reporting an issue, suggesting features, or submitting code, your help is invaluable.
+### 🐛 Report Issues  
+Found a bug or have an idea? File your reports and suggestions in the [GitHub Repository](https://github.com/webforj/webforj). Not sure where to post? Share it there, and we'll guide you.
 
-### Reporting Issues
-
-Encountered a bug or have a feature request? Submit your reports or suggestions to the [webforJ GitHub repository](https://github.com/webforj/webforj). If you're unsure which repository to use, post it here, and we'll ensure it reaches the right place.
-
-### Contributing Code
-
-Ready to dive in? Check out the [Contributing Guide](https://github.com/webforj/webforj/blob/main/CONTRIBUTING.md) to get started. Explore issues tagged in the repositories to find where you can make a difference.
-
-## License
-
-webforJ is open source and available under the [MIT License](https://github.com/webforj/webforj/blob/main/LICENSE). 
+### ✨ Submit Code  
+Ready to make an impact? Follow the [Contributing Guide](https://github.com/webforj/webforj/blob/main/CONTRIBUTING.md) and pick an issue tagged in the repository to start contributing.
