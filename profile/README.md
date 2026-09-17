@@ -22,7 +22,7 @@ webforJ is a powerful framework that enables developers to build modern web inte
 - **[📖 Get Started](https://docs.webforj.com/docs/introduction/getting-started):** A step-by-step guide to kickstart your webforJ journey.  
 - **[🛠 UI Components](https://docs.webforj.com/docs/components/overview):** Explore the reusable and customizable components that power webforJ.  
 - **[📚 JavaDocs](https://javadoc.io/doc/com.webforj):** Dive into the detailed documentation of webforJ APIs and classes.  
-- **[🎨 DWC Design Kit](https://www.figma.com/community/file/1144573845612007198):** Access the Figma community design kit to create stunning webforJ interfaces.
+- **[🎨 DWC Design Kit](https://www.figma.com/community/file/1682060886525639971/):** Access the Figma community design kit to create stunning webforJ interfaces.
 
 ## 🤝 **How to Contribute**
 
