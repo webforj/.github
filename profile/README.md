@@ -22,9 +22,17 @@ claude plugin install webforj@webforj-ai
 
 - **[MCP server](https://docs.webforj.com/docs/ai-tooling/mcp):** live access to the webforJ docs, project scaffolding, theme generation and design token validation, so answers come from current documentation instead of training data.
 - **[Agent Skills](https://docs.webforj.com/docs/ai-tooling/agent-skills):** step-by-step workflows for building forms, creating components, styling apps, securing routes, async work, localization and version upgrades.
-- **[craftforJ assistant](https://docs.webforj.com/docs/ai-tooling/craftforj-assistant):** a coding agent inside your running app. It writes Java, compiles each change before you see it, and applies it with your approval. It ships with webforJ.
 - **[MCP Apps](https://docs.webforj.com/docs/integrations/mcp-apps/overview):** open a webforJ view inside an AI app's conversation, so the person and the AI work with the same live UI. Experimental.
 - **AI-friendly docs:** every docs page opens in ChatGPT or Claude in one click, and the full documentation is published as [llms.txt](https://docs.webforj.com/llms.txt).
+
+## Edit your running app, visually
+
+[craftforJ](https://docs.webforj.com/docs/craftforj) is the visual development environment that ships with webforJ. It runs inside your app in development mode and shows the components your Java code created.
+
+- **Click and change:** select any component in the page and edit its properties while the app runs.
+- **Back to source:** review your live edits as a diff and write the ones you keep into your Java files.
+- **Routes and theme:** navigate every route, adjust its access rules, and tune the design tokens with an instant preview.
+- **An agent built in:** the [craftforJ assistant](https://docs.webforj.com/docs/ai-tooling/craftforj-assistant) writes Java inside the running app, compiles each change before you see it, and applies it with your approval.
 
 ## Swing to web, one screen at a time
 
