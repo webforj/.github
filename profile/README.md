@@ -1,33 +1,71 @@
 <div align="center">
 
-![webforJ](./cover.svg)
+![webforJ: the AI-ready Java web UI framework](./cover.png)
 
-Elevate your Java applications to the web effortlessly with BASIS International's webforJ framework. Streamline workflows, cut expenses, and reduce risks while delivering sophisticated, scalable web solutions.
-
-<a href="https://webforj.com/schedule-discovery/" target="_blank">
-<img src="https://img.shields.io/badge/Schedule%20Discovery-java?style=for-the-badge&logo=googlecalendar&logoColor=ffffff&logoSize=400&labelColor=555555&color=022495" alt="Schedule webforJ Discovery">
-</a>
-
-  <br>
-</div>
-
-## 🚀 What is webforJ?
-
-webforJ is a powerful framework that enables developers to build modern web interfaces in Java effortlessly. Its developer-friendly approach ensures flexibility, simplicity, and efficiency for intuitive web application creation.
+**webforJ is an AI-ready Java web UI framework.** Build modern web apps entirely in Java, bring your existing desktop apps to the web, and let your AI coding assistant build alongside you. Backed by BASIS International's almost 40 years of expertise, including 20+ years of delivering technology built on Java.
 
 [![Latest Release](https://img.shields.io/maven-metadata/v.svg?label=Latest&&color=022495&metadataUrl=https%3A%2F%2Frepo1.maven.org%2Fmaven2%2Fcom%2Fwebforj%2Fwebforj-parent%2Fmaven-metadata.xml)](https://github.com/webforj/webforj/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-022495)](https://github.com/webforj/webforj/blob/main/LICENSE)
 
-## 🔗 Quick Links
+[Get started](https://docs.webforj.com/docs/introduction/getting-started) · [Documentation](https://docs.webforj.com) · [Blog](https://docs.webforj.com/blog) · [Schedule a discovery call](https://webforj.com/schedule-discovery/)
 
-- **[📖 Get Started](https://docs.webforj.com/docs/introduction/getting-started):** A step-by-step guide to kickstart your webforJ journey.  
-- **[🛠 UI Components](https://docs.webforj.com/docs/components/overview):** Explore the reusable and customizable components that power webforJ.  
-- **[📚 JavaDocs](https://javadoc.io/doc/com.webforj):** Dive into the detailed documentation of webforJ APIs and classes.  
-- **[🎨 DWC Design Kit](https://www.figma.com/community/file/1682060886525639971/):** Access the Figma community design kit to create stunning webforJ interfaces.
+</div>
 
-## 🤝 **How to Contribute**
+## Your AI assistant already speaks webforJ
 
-### 🐛 Report Issues  
-Found a bug or have an idea? File your reports and suggestions in the [GitHub Repository](https://github.com/webforj/webforj). Not sure where to post? Share it there, and we'll guide you.
+Your assistant doesn't have to guess at webforJ. The [webforJ AI plugin](https://docs.webforj.com/docs/ai-tooling) teaches it the framework in one install, and works with Claude Code, GitHub Copilot, Cursor, Gemini CLI and Codex.
 
-### ✨ Submit Code  
-Ready to make an impact? Follow the [Contributing Guide](https://github.com/webforj/webforj/blob/main/CONTRIBUTING.md) and pick an issue tagged in the repository to start contributing.
+```bash
+claude plugin marketplace add webforj/webforj-ai
+claude plugin install webforj@webforj-ai
+```
+
+- **[MCP server](https://docs.webforj.com/docs/ai-tooling/mcp):** live access to the webforJ docs, project scaffolding, theme generation and design token validation, so answers come from current documentation instead of training data.
+- **[Agent Skills](https://docs.webforj.com/docs/ai-tooling/agent-skills):** step-by-step workflows for building forms, creating components, styling apps, securing routes, async work, localization and version upgrades.
+- **[craftforJ assistant](https://docs.webforj.com/docs/ai-tooling/craftforj-assistant):** a coding agent inside your running app. It writes Java, compiles each change before you see it, and applies it with your approval. It ships with webforJ.
+- **[MCP Apps](https://docs.webforj.com/docs/integrations/mcp-apps/overview):** open a webforJ view inside an AI app's conversation, so the person and the AI work with the same live UI. Experimental.
+- **AI-friendly docs:** every docs page opens in ChatGPT or Claude in one click, and the full documentation is published as [llms.txt](https://docs.webforj.com/llms.txt).
+
+## Swing to web, one screen at a time
+
+Run your existing Swing, JavaFX or SWT app in the browser through [Webswing](https://docs.webforj.com/docs/integrations/webswing/overview), then move it to webforJ one screen at a time. Your users get the web version right away, and your team rewrites at its own pace, in the language it already knows.
+
+BASIS International has spent almost 40 years assisting organizations to modernize mission-critical systems. webforJ brings that experience to your Java apps.
+
+## One design system, every screen
+
+Every webforJ component comes from one design system, so your app looks and behaves consistently from the first screen to the last. Themes, light and dark modes and design tokens are built in, and the [DWC Design Kit for Figma](https://www.figma.com/community/file/1682060886525639971/) lets designers work with the same components your developers use.
+
+## No JavaScript to write. No REST layer. Just Java.
+
+```java
+@Route("/")
+public class HelloWorldView extends Composite<FlexLayout> {
+  private final FlexLayout self = getBoundComponent();
+  private final Paragraph hello = new Paragraph("Hello World!");
+  private final Button btn = new Button("Say Hello");
+
+  public HelloWorldView() {
+    btn.setTheme(ButtonTheme.SUCCESS)
+        .addClickListener(e -> showMessageDialog("Hello World!", "Do it all in Java"));
+
+    self.setDirection(FlexDirection.COLUMN).add(hello, btn);
+  }
+}
+```
+
+Generate a ready-to-run project with [startforJ](https://docs.webforj.com/startforj), or follow the [getting started guide](https://docs.webforj.com/docs/introduction/getting-started).
+
+## Build it with us
+
+Found a bug or have an idea? Open an issue in [webforj](https://github.com/webforj/webforj). Not sure where it belongs? Post it there and we'll route it. To contribute code, read the [contributing guide](https://github.com/webforj/webforj/blob/main/CONTRIBUTING.md).
+
+---
+
+<div align="center">
+
+Do it all in Java. Build in Java, deploy to the web.
+
+[webforj.com](https://webforj.com) · [JavaDocs](https://javadoc.io/doc/com.webforj)
+
+</div>
