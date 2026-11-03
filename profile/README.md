@@ -23,7 +23,7 @@ claude plugin install webforj@webforj-ai
 - **[MCP server](https://docs.webforj.com/docs/ai-tooling/mcp):** live access to the webforJ docs, project scaffolding, theme generation and design token validation, so answers come from current documentation instead of training data.
 - **[Agent Skills](https://docs.webforj.com/docs/ai-tooling/agent-skills):** step-by-step workflows for building forms, creating components, styling apps, securing routes, async work, localization and version upgrades.
 - **[MCP Apps](https://docs.webforj.com/docs/integrations/mcp-apps/overview):** open a webforJ view inside an AI app's conversation, so the person and the AI work with the same live UI. Experimental.
-- **AI-friendly docs:** every docs page opens in ChatGPT or Claude in one click, and the full documentation is published as [llms.txt](https://docs.webforj.com/llms.txt).
+- **Docs that talk back:** stuck on a page? Open it in ChatGPT or Claude with one click and ask your question right there.
 
 ## Edit your running app, visually
 
