@@ -1,6 +1,6 @@
 <div align="center">
 
-![webforJ: the full-stack Java framework for building business web apps and modernizing Swing apps in Java](./cover.png)
+![webforJ: the full-stack Java framework for building business web apps and modernizing Swing apps in Java](./cover-v2.png)
 
 **The frontend is Java now.**
 
